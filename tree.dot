@@ -1,0 +1,9 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="Extracurricular Activities <= 0.5\nsquared_error = 368.673\nsamples = 8000\nvalue = 55.312", fillcolor="#f2c19d"] ;
+1 [label="squared_error = 364.579\nsamples = 4043\nvalue = 54.956", fillcolor="#ffffff"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="squared_error = 372.595\nsamples = 3957\nvalue = 55.674", fillcolor="#e58139"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
